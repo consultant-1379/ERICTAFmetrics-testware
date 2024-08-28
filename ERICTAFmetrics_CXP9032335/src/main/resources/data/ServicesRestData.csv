@@ -1,0 +1,12 @@
+HostName,TestId,Https,RestType,URL,EndPoint,RestParameters,ex1,ex2,ex3,ex4,ex5,ex6,ExpectedResult,ResponseCode,TimeOut
+metricsServices,SprintDetails,FALSE,GET,metrics-services,sprint-current-details/,,"""sprint"":""15.1""",,,,,,TRUE,OK,80
+metricsServices,TeamPerformance,FALSE,GET,metrics-services,team-performance/,,"{""commit"":""11"",""team"":""LooneyToons""}",,,,,,TRUE,OK,80
+metricsServices,CurrentQueue,FALSE,GET,metrics-services,current-queue-activity/,,"""queueLength"":4,""artifactsInQueue"":40",,,,,,TRUE,OK,80
+metricsServices,CurrentMaintrackStatus,FALSE,GET,metrics-services,current-maintrack-status/,,"""status"":""open""",,,,,,TRUE,OK,80
+metricsServices,MTEDetails,FALSE,GET,metrics-services,isoMtRadiator-details/,details=MTE,[],,,,,,TRUE,OK,80
+metricsServices,ISORadiator,FALSE,GET,metrics-services,isoMtRadiator-details/,details=ISORadiator,[],,,,,,TRUE,OK,80
+metricsServices,KgpPhysical,FALSE,GET,metrics-services,kgb-physical/,,"{""drop"":""15.1"",""currentProductKGBPhysical"":""12.0.25"",""currentIsoKGBPhysical"":""12.0.25""}",,,,,,TRUE,OK,80
+metricsServices,KgbCloud,FALSE,GET,metrics-services,kgb-cloud/,,"{""drop"":""15.2"",""currentIsoKGBCloud"":""1.10.28"",""currentProductKGBCloud"":""12.0.24""}",,,,,,TRUE,OK,80
+metricsServices,KgbPhysicalII,FALSE,GET,metrics-services,physical-ii-kgb/,,"{""drop"":""15.1"",""physicalIIKGB"":""12.0.25""}",,,,,,TRUE,OK,80
+metricsServices,Rvb-baseline,FALSE,GET,metrics-services,rvb-baseline/,,"{""baselineRVBIsoVersion"":""Not Set"",""baselineRVBProductVersion"":""Not Set""}",,,,,,TRUE,OK,80
+metricsServices,Rvb-current,FALSE,GET,metrics-services,rvb-current/,,"{""currentRVBIsoVersion"":""Not Set"",""currentRVBProductVersion"":""Not Set""}",,,,,,TRUE,OK,80

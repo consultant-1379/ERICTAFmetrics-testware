@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Monitor Tool">
+  <test name="Setup">
+    <classes>
+      <class name="com.ericsson.cifwk.test.steps.MetricsPageMonitorTestStep" />
+    </classes>
+  </test>
+</suite>

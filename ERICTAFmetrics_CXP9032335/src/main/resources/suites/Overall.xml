@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Metrics End-to-End">
+
+ <test name="Initialise">
+  <classes>
+   <class name="com.ericsson.cifwk.setup.Initialise" />
+  </classes>
+ </test>
+ <test name="GenerateEvents">
+  <classes>
+   <class name="com.ericsson.cifwk.scenarios.GenerateEvents" />
+  </classes>
+ </test>
+ <test name="MainScenario">
+  <classes>
+   <class name="com.ericsson.cifwk.scenarios.MainScenario" />
+  </classes>
+ </test>
+ <test name="ServicesScenario">
+  <classes>
+   <class name="com.ericsson.cifwk.scenarios.ServicesScenario" />
+  </classes>
+ </test>
+
+</suite>
